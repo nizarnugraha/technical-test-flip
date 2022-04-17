@@ -1,0 +1,19 @@
+{
+  "default_type": "guest",
+  "host_varcel": "https://demo.vercel.store/",
+  "host_api": "https://gorest.co.in/",
+  "types": {
+    "guest": {
+      "default_merchant": "guest"
+    },
+    "owner": {
+      "default_merchant": "owner",
+      "merchants": [
+        {
+          "email": "nizarnugraha9@gmail.com",
+          "password": "nizar123"
+        }
+      ]
+    }
+  }
+}

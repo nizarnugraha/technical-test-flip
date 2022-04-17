@@ -1,0 +1,23 @@
+{
+    "name": "codeceptjs-tests",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "codeceptjs": "codeceptjs run --steps --reporter mochawesome",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps --reporter mochawesome",
+        "codeceptjs:ui": "codecept-ui --app"
+    },
+    "devDependencies": {
+        "@babel/polyfill": "~7.12.1",
+        "@codeceptjs/configure": "~0.7.0",
+        "@codeceptjs/ui": "~0.4.3",
+        "chai": "~4.3.4",
+        "codeceptjs": "~3.0.7",
+        "mocha": "~8.1.3",
+        "mochawesome": "~6.2.2",
+        "playwright": "~1.12.3"
+    },
+    "dependencies": {
+        "faker": "^5.5.3"
+    }
+}
