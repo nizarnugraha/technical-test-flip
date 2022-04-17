@@ -41,10 +41,8 @@ cfg = {
       endpoint: 'https://gorest.co.in/public/v1/todos',
       onRequest: (request) => {
       request.headers.auth = 'Bearer a2db5053b9b6e8f93691d0e619ae6a86e1db027a1dd4050e1407c5faeebd02d2';
-      },
-      JSONResponse: {
       }
-    }
+    },
   },
   include: {
     I: './steps_file.js',
